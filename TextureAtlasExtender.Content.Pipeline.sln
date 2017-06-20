@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextureAtlasExtender.Content.Pipeline", "TextureAtlasExtender.Content.Pipeline\TextureAtlasExtender.Content.Pipeline.csproj", "{EFAFF595-D3C5-484D-8FEF-3FB4A345BD23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonTester", "JsonTester\JsonTester.csproj", "{93E7126F-5289-47F9-9E80-DEE578E5F4B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibGDXAtlasParser", "LibGDXAtlasParser\LibGDXAtlasParser.csproj", "{FE1EE5AC-0C9D-4A0F-8F76-99B07B56340E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlasParserImportTest", "AtlasParserImportTest\AtlasParserImportTest.csproj", "{D8C1F334-62E6-42E5-A37A-21C6211C472E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlasParserSectionTest", "AtlasParserSectionTest\AtlasParserSectionTest.csproj", "{B06284A0-4524-483D-AA09-1E3415E67874}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlasFileStructureTest", "AtlasFileStructureTest\AtlasFileStructureTest.csproj", "{93084E51-7077-401F-A65E-7C72FEFEE1AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlasEnumTest", "AtlasEnumTest\AtlasEnumTest.csproj", "{1142A989-59E5-48A0-8720-95855A7EBD17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibGDXAtlasExtender.Model", "LibGDXAtlasExtender.Model\LibGDXAtlasExtender.Model.csproj", "{96D00B32-E63D-454E-BFB9-7A79C6FF3662}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibGDXAtlas.Reader", "LibGDXAtlas.Reader\LibGDXAtlas.Reader.csproj", "{146CD83C-7AC8-460D-9455-93E40787AD42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFAFF595-D3C5-484D-8FEF-3FB4A345BD23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFAFF595-D3C5-484D-8FEF-3FB4A345BD23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFAFF595-D3C5-484D-8FEF-3FB4A345BD23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFAFF595-D3C5-484D-8FEF-3FB4A345BD23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93E7126F-5289-47F9-9E80-DEE578E5F4B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E7126F-5289-47F9-9E80-DEE578E5F4B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E7126F-5289-47F9-9E80-DEE578E5F4B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E7126F-5289-47F9-9E80-DEE578E5F4B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE1EE5AC-0C9D-4A0F-8F76-99B07B56340E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE1EE5AC-0C9D-4A0F-8F76-99B07B56340E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE1EE5AC-0C9D-4A0F-8F76-99B07B56340E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE1EE5AC-0C9D-4A0F-8F76-99B07B56340E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8C1F334-62E6-42E5-A37A-21C6211C472E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8C1F334-62E6-42E5-A37A-21C6211C472E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8C1F334-62E6-42E5-A37A-21C6211C472E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8C1F334-62E6-42E5-A37A-21C6211C472E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B06284A0-4524-483D-AA09-1E3415E67874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B06284A0-4524-483D-AA09-1E3415E67874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B06284A0-4524-483D-AA09-1E3415E67874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B06284A0-4524-483D-AA09-1E3415E67874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93084E51-7077-401F-A65E-7C72FEFEE1AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93084E51-7077-401F-A65E-7C72FEFEE1AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93084E51-7077-401F-A65E-7C72FEFEE1AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93084E51-7077-401F-A65E-7C72FEFEE1AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1142A989-59E5-48A0-8720-95855A7EBD17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1142A989-59E5-48A0-8720-95855A7EBD17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1142A989-59E5-48A0-8720-95855A7EBD17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1142A989-59E5-48A0-8720-95855A7EBD17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96D00B32-E63D-454E-BFB9-7A79C6FF3662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96D00B32-E63D-454E-BFB9-7A79C6FF3662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96D00B32-E63D-454E-BFB9-7A79C6FF3662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96D00B32-E63D-454E-BFB9-7A79C6FF3662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{146CD83C-7AC8-460D-9455-93E40787AD42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{146CD83C-7AC8-460D-9455-93E40787AD42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{146CD83C-7AC8-460D-9455-93E40787AD42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{146CD83C-7AC8-460D-9455-93E40787AD42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

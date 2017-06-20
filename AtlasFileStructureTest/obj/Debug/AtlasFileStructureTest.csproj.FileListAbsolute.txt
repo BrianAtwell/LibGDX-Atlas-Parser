@@ -1,0 +1,8 @@
+C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\AtlasFileStructureTest\bin\Debug\AtlasFileStructureTest.exe.config
+C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\AtlasFileStructureTest\bin\Debug\AtlasFileStructureTest.exe
+C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\AtlasFileStructureTest\bin\Debug\AtlasFileStructureTest.pdb
+C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\AtlasFileStructureTest\bin\Debug\LibGDXAtlasParser.dll
+C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\AtlasFileStructureTest\bin\Debug\LibGDXAtlasParser.pdb
+C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\AtlasFileStructureTest\obj\Debug\AtlasFileStructureTest.csprojResolveAssemblyReference.cache
+C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\AtlasFileStructureTest\obj\Debug\AtlasFileStructureTest.exe
+C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\AtlasFileStructureTest\obj\Debug\AtlasFileStructureTest.pdb

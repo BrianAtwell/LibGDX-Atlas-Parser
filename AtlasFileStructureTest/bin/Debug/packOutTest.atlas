@@ -1,0 +1,363 @@
+
+pack.json.png
+size: 4096, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+Stickman.0000
+  rotate: False
+  xy: 2, 484
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0048
+  rotate: False
+  xy: 2, 484
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0001
+  rotate: False
+  xy: 2, 2
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0047
+  rotate: False
+  xy: 2, 2
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0002
+  rotate: False
+  xy: 244, 484
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0046
+  rotate: False
+  xy: 244, 484
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0003
+  rotate: False
+  xy: 244, 2
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0045
+  rotate: False
+  xy: 244, 2
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0004
+  rotate: False
+  xy: 486, 484
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0044
+  rotate: False
+  xy: 486, 484
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0005
+  rotate: False
+  xy: 486, 2
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0043
+  rotate: False
+  xy: 486, 2
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0006
+  rotate: False
+  xy: 728, 484
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0042
+  rotate: False
+  xy: 728, 484
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0007
+  rotate: False
+  xy: 728, 2
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0041
+  rotate: False
+  xy: 728, 2
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0008
+  rotate: False
+  xy: 970, 484
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0040
+  rotate: False
+  xy: 970, 484
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0009
+  rotate: False
+  xy: 970, 2
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0039
+  rotate: False
+  xy: 970, 2
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0010
+  rotate: False
+  xy: 1212, 484
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0038
+  rotate: False
+  xy: 1212, 484
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0011
+  rotate: False
+  xy: 1212, 2
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0037
+  rotate: False
+  xy: 1212, 2
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0012
+  rotate: False
+  xy: 1454, 484
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0036
+  rotate: False
+  xy: 1454, 484
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0013
+  rotate: False
+  xy: 1454, 2
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0035
+  rotate: False
+  xy: 1454, 2
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0014
+  rotate: False
+  xy: 1696, 484
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0034
+  rotate: False
+  xy: 1696, 484
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0015
+  rotate: False
+  xy: 1696, 2
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0033
+  rotate: False
+  xy: 1696, 2
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0016
+  rotate: False
+  xy: 1938, 484
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0032
+  rotate: False
+  xy: 1938, 484
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0017
+  rotate: False
+  xy: 1938, 2
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0031
+  rotate: False
+  xy: 1938, 2
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0018
+  rotate: False
+  xy: 2180, 484
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0030
+  rotate: False
+  xy: 2180, 484
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0019
+  rotate: False
+  xy: 2180, 2
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0029
+  rotate: False
+  xy: 2180, 2
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0020
+  rotate: False
+  xy: 2422, 484
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0028
+  rotate: False
+  xy: 2422, 484
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0021
+  rotate: False
+  xy: 2422, 2
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0027
+  rotate: False
+  xy: 2422, 2
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0022
+  rotate: False
+  xy: 2664, 484
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0026
+  rotate: False
+  xy: 2664, 484
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0023
+  rotate: False
+  xy: 2664, 2
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0025
+  rotate: False
+  xy: 2664, 2
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+Stickman.0024
+  rotate: False
+  xy: 2906, 484
+  size: 240, 480
+  orig: 240, 480
+  orig: 0, 0
+  index: -1
+
+pack.json2.png
+size: 128, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+test/smile!@#$%^&()-_=+[]{};',`~smile
+  rotate: False
+  xy: 2, 2
+  size: 64, 64
+  orig: 64, 64
+  orig: 0, 0
+  index: -1
+

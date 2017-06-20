@@ -1,0 +1,5 @@
+C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\LibGDXAtlasExtender.Model\bin\Debug\LibGDXAtlasExtender.Model.dll
+C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\LibGDXAtlasExtender.Model\bin\Debug\LibGDXAtlasExtender.Model.pdb
+C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\LibGDXAtlasExtender.Model\obj\Debug\LibGDXAtlasExtender.Model.csprojResolveAssemblyReference.cache
+C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\LibGDXAtlasExtender.Model\obj\Debug\LibGDXAtlasExtender.Model.dll
+C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\LibGDXAtlasExtender.Model\obj\Debug\LibGDXAtlasExtender.Model.pdb

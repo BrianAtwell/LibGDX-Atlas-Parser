@@ -1,0 +1,8 @@
+C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\AtlasParserSectionTest\bin\Debug\AtlasParserSectionTest.exe.config
+C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\AtlasParserSectionTest\bin\Debug\AtlasParserSectionTest.exe
+C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\AtlasParserSectionTest\bin\Debug\AtlasParserSectionTest.pdb
+C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\AtlasParserSectionTest\bin\Debug\LibGDXAtlasParser.dll
+C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\AtlasParserSectionTest\bin\Debug\LibGDXAtlasParser.pdb
+C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\AtlasParserSectionTest\obj\Debug\AtlasParserSectionTest.csprojResolveAssemblyReference.cache
+C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\AtlasParserSectionTest\obj\Debug\AtlasParserSectionTest.exe
+C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\AtlasParserSectionTest\obj\Debug\AtlasParserSectionTest.pdb

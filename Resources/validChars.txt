@@ -1,0 +1,5 @@
+Valid Filename chars
+!@#$%^&()-_=+[]{};',`~
+
+Section Name can be a path
+/

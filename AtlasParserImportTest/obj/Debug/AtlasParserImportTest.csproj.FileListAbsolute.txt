@@ -1,0 +1,8 @@
+C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\AtlasParserImportTest\bin\Debug\AtlasParserImportTest.exe.config
+C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\AtlasParserImportTest\bin\Debug\AtlasParserImportTest.exe
+C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\AtlasParserImportTest\bin\Debug\AtlasParserImportTest.pdb
+C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\AtlasParserImportTest\bin\Debug\LibGDXAtlasParser.dll
+C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\AtlasParserImportTest\bin\Debug\LibGDXAtlasParser.pdb
+C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\AtlasParserImportTest\obj\Debug\AtlasParserImportTest.csprojResolveAssemblyReference.cache
+C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\AtlasParserImportTest\obj\Debug\AtlasParserImportTest.exe
+C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\AtlasParserImportTest\obj\Debug\AtlasParserImportTest.pdb
