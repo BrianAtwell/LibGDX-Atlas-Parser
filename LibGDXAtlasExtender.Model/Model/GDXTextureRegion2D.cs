@@ -137,11 +137,9 @@ namespace LibGDXAtlasExtender.Model
 
         public Texture2D Texture { get; protected set; }
 
-        public Rectangle Bounds => new Rectangle(X, Y, Width, Height);
-
         public override string ToString()
         {
-            return $"{Name ?? string.Empty} {Bounds}";
+            return $"{Name ?? string.Empty}";
         }
         #endregion
     }

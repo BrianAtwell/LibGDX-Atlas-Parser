@@ -1,1 +1,2 @@
 C:\Users\Brian\Documents\MyPjs\monogame\SmackAttack\TextureAtlasExtender.Content.Pipeline\AtlasEnumTest\bin\Debug\AtlasEnumTest.exe.config
+C:\Users\Brian\Source\Repos\LibGDX-Atlas-Parser\AtlasEnumTest\bin\Debug\AtlasEnumTest.exe.config
