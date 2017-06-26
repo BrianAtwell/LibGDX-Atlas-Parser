@@ -1,10 +1,11 @@
-﻿using System;
+﻿using LibGDXAtlasExtender.Model.KeyEnums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LibGDXAtlasParser.Model
+namespace LibGDXAtlasExtender.Model
 {
     /*
         <summary>

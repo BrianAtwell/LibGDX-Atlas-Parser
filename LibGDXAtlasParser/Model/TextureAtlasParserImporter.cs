@@ -4,6 +4,9 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using LibGDXAtlasParser.Model;
+using LibGDXAtlasExtender.Model;
+using LibGDXAtlasExtender.Model.KeyEnums;
 
 namespace LibGDXAtlasParser.Model
 {
@@ -61,23 +64,23 @@ namespace LibGDXAtlasParser.Model
                 if (values != null && values.Count == 2)
                 {
                     TextureFilter filter = TextureFilter.Linear;
-                    KeyTypeUtilities<TextureFilter>.Parse(values[0], ref filter);
+                    KeyTypeUtilities.Parse<TextureFilter>(values[0], ref filter);
                     textInfo.FilterMin = filter;
-                    KeyTypeUtilities<TextureFilter>.Parse(values[1], ref filter);
+                    KeyTypeUtilities.Parse<TextureFilter>(values[1], ref filter);
                     textInfo.FilterMax = filter;
                 }
                 values = textureTree.Keys["format"];
                 if (values != null && values.Count == 1)
                 {
                     Format format = Format.Alpha;
-                    KeyTypeUtilities<Format>.Parse(values[0], ref format);
+                    KeyTypeUtilities.Parse<Format>(values[0], ref format);
                     textInfo.Format = format;
                 }
                 values = textureTree.Keys["repeat"];
                 if (values != null && values.Count == 1)
                 {
                     Repeat repeat = Repeat.xy;
-                    KeyTypeUtilities<Repeat>.Parse(values[0], ref repeat);
+                    KeyTypeUtilities.Parse<Repeat>(values[0], ref repeat);
                     textInfo.Repeat = repeat;
                 }
 

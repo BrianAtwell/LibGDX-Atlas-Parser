@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework.Graphics;
+﻿//using LibGDXAtlasParser.Model;
+using Microsoft.Xna.Framework.Graphics;
 using MonoGame.Extended.TextureAtlases;
 using System;
 using System.Collections;
@@ -22,6 +23,42 @@ namespace LibGDXAtlasExtender.Model
 
         public Texture2D Texture { get; }
 
+        public int Width { get; }
+
+        public int Height { get; }
+
+        public SurfaceFormat Format { get; }
+
+        public TextureFilter MinFilter { get; }
+
+        public TextureFilter MaxFilter { get; }
+
+        public LibGDXAtlasExtender.Model.KeyEnums.Repeat Repeat { get; }
+
+        /*  <summary>
+                Initializes a new texture atlas with an empty list of regions.
+            </summary>
+            <param name="texture"> <see cref="Texture2D " /> image used to draw on screen.</param>
+            <param name="width">The width of the texture</param>
+            <param name="height">The height of the texture</param>
+            <param name="format">The color format of the Texture</param>
+            <param name="minFilter">This is the x or min texture filter</param>
+            <param name="maxFilter">This is the y or max texture filter</param>
+            <param name="repeat">This is the repeat of the texture</param>
+        */
+        public TextureAtlas(Texture2D texture, int width, int height, SurfaceFormat format, TextureFilter minFilter, TextureFilter maxFilter, LibGDXAtlasExtender.Model.KeyEnums.Repeat repeat)
+        {
+            Texture = texture;
+            _regions = new List<GDXTextureRegion2D>();
+            _regionMap = new Dictionary<string, int>();
+            Width = width;
+            Height = height;
+            Format = format;
+            MinFilter = minFilter;
+            MaxFilter = maxFilter;
+            Repeat = repeat;
+        }
+
         /*  <summary>
                 Initializes a new texture atlas with an empty list of regions.
             </summary>
@@ -32,6 +69,7 @@ namespace LibGDXAtlasExtender.Model
             Texture = texture;
             _regions = new List<GDXTextureRegion2D>();
             _regionMap = new Dictionary<string, int>();
+
         }
 
         /*
@@ -40,6 +78,9 @@ namespace LibGDXAtlasExtender.Model
             </summary>
             <param name="name">
                 <see cref="string"/> Name of the region
+            </param>
+            <param name="rotate">
+                Indicates if the texture region is rotated
             </param>
             <param name="x">
                 X coordinate of the upper left corner of the texture region.
@@ -65,15 +106,12 @@ namespace LibGDXAtlasExtender.Model
             <param name="origHeight">
                 Original height of the texture region
             </param>
-            <param name="rotate">
-                Indicates if the texture region is rotated
-            </param>
             <param name="index">
                 Index of the texture region
             </param>
         */
-        public GDXTextureRegion2D CreateRegion(string name, int x, int y, int width, int height, int offsetWidth,
-            int offsetHeight, int origWidth, int origHeight, bool rotate, int index)
+        public GDXTextureRegion2D CreateRegion(string name, bool rotate, int x, int y, int width, int height, int offsetWidth,
+            int offsetHeight, int origWidth, int origHeight, int index)
         {
             if (_regionMap.ContainsKey(name))
                 throw new InvalidOperationException($"Region {name} already exists in the texture atlas");

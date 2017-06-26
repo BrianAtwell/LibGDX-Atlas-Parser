@@ -1,4 +1,5 @@
-﻿using LibGDXAtlasParser.Model;
+﻿using LibGDXAtlasExtender.Model;
+using LibGDXAtlasParser.Model;
 using Microsoft.Xna.Framework.Content.Pipeline;
 using System;
 using System.Collections.Generic;

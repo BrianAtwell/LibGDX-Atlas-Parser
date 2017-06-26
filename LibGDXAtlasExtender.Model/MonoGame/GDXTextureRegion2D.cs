@@ -1,6 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using MonoGame.Extended.TextureAtlases;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -49,6 +48,8 @@ namespace LibGDXAtlasExtender.Model
             Name = name;
             X = x;
             Y = y;
+            Width = width;
+            Height = height;
             OffsetWidth = offsetWidth;
             OffsetHeight = offsetHeight;
             OrigWidth = origWidth;
@@ -136,6 +137,8 @@ namespace LibGDXAtlasExtender.Model
         public int Index { get; }
 
         public Texture2D Texture { get; protected set; }
+
+        public Rectangle Bounds => new Rectangle(X, Y, Width, Height);
 
         public override string ToString()
         {

@@ -1,4 +1,5 @@
-﻿using LibGDXAtlasParser;
+﻿using LibGDXAtlasExtender.Model;
+using LibGDXAtlasParser;
 using LibGDXAtlasParser.Model;
 using System;
 using System.Collections.Generic;
@@ -17,9 +18,9 @@ namespace AtlasFileStructureTest
             string packFile = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName + "\\Resources\\test2.json.atlas";
             TextureAtlasFile textFile;
 
-            textFile = TextureAtlasFile.ImportFromFile(packFile);
+            textFile = TextureAtlasParserImporter.ImportFromFile(packFile);
 
-            textFile.TestExportToFile("packOutTest.atlas");
+            TextureAtlasParserImporter.TestExportToFile(textFile, "packOutTest.atlas");
         }
     }
 }

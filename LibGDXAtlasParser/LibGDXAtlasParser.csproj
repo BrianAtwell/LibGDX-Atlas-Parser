@@ -45,7 +45,6 @@
     <Compile Include="Model\Configuration\AtlasParserConfiguration.cs" />
     <Compile Include="Model\KeyData.cs" />
     <Compile Include="Model\KeyDataCollection.cs" />
-    <Compile Include="Model\KeyTypeUtilities.cs" />
     <Compile Include="Model\SectionData.cs" />
     <Compile Include="Model\SectionTreeCollection.cs" />
     <Compile Include="Model\TextureAtlasParserImporter.cs" />

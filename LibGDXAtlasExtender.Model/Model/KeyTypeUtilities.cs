@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LibGDXAtlasParser.Model
+namespace LibGDXAtlasExtender.Model
 {
     /*
         <summary>
             KeyTypeUtilities contains a collection of methods
         </summary>
     */
-    public class KeyTypeUtilities<T>
+    public static class KeyTypeUtilities
     {
         #region Static Members
         /*
@@ -25,7 +25,7 @@ namespace LibGDXAtlasParser.Model
                 ref of the enum to return the converted value.
             </param>
         */
-        public static void Parse(string typeStr, ref T myType)
+        public static void Parse<T>(string typeStr, ref T myType)
         {
             try
             {

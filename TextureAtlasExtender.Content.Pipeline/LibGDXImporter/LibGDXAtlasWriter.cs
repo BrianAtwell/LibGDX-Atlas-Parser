@@ -1,5 +1,6 @@
 ﻿using LibGDXAtlasExtender.Model;
 using LibGDXAtlasParser.Model;
+using LibGDXAtlasExtender.Model.KeyEnums;
 using Microsoft.Xna.Framework.Content.Pipeline;
 using Microsoft.Xna.Framework.Content.Pipeline.Serialization.Compiler;
 using System;
@@ -40,10 +41,9 @@ namespace TextureAtlasExtender.Content.Pipeline.LibGDXImporter
                 writer.Write(assetName);
                 writer.Write(textInfo.Width);
                 writer.Write(textInfo.Height);
-                writer.Write(textInfo.Format.ToString());
-                writer.Write(textInfo.FilterMin.ToString());
-                writer.Write(textInfo.FilterMax.ToString());
-                writer.Write(textInfo.Width);
+                writer.Write(textInfo.Format.ToXnaFormat().ToString());
+                writer.Write(textInfo.FilterMin.ToXnaFilter().ToString());
+                writer.Write(textInfo.FilterMax.ToXnaFilter().ToString());
                 writer.Write(textInfo.Repeat.ToString());
 
                 writer.Write(textInfo.Subtexture.Count());
@@ -55,6 +55,7 @@ namespace TextureAtlasExtender.Content.Pipeline.LibGDXImporter
                     writer.Write(subtexture.X);
                     writer.Write(subtexture.Y);
                     writer.Write(subtexture.Width);
+                    Console.WriteLine("width: {0} height: {1}", subtexture.Width, subtexture.Height);
                     writer.Write(subtexture.Height);
                     writer.Write(subtexture.OrigWidth);
                     writer.Write(subtexture.OrigHeight);
