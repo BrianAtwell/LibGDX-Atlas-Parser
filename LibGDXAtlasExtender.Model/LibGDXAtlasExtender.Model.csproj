@@ -18,7 +18,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DefineConstants>TRACE;DEBUG;MONOGAME_LIBS</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
@@ -31,12 +31,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MonoGame.Extended">
-      <HintPath>..\..\..\..\Documents\monogame\MonoGame.Extended-develop\Source\MonoGame.Extended\bin\Debug\MonoGame.Extended.dll</HintPath>
-    </Reference>
-    <Reference Include="MonoGame.Framework, Version=3.5.1.1679, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="MonoGame.Extended, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\monogame\MonoGame.Extended-develop\Dependencies\MonoGame.Framework.dll</HintPath>
+      <HintPath>..\packages\MonoGame.Extended.3.8.0\lib\netstandard2.0\MonoGame.Extended.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MSBuild\MonoGame\v3.0\Tools\MonoGame.Framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -48,20 +49,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MonoGame\GDXTextureRegion2D.cs" />
     <Compile Include="Model\KeyEnums\Format.cs" />
     <Compile Include="Model\KeyEnums\Repeat.cs" />
     <Compile Include="Model\KeyTypeUtilities.cs" />
-    <Compile Include="MonoGame\LibGDXAtlasReader.cs" />
+    <Compile Include="Model\TextureAtlas.cs" />
+    <Compile Include="Model\TextureAtlasParserImporter.cs" />
     <Compile Include="Model\SubTextureInfo.cs" />
     <Compile Include="Model\TextureAtlasFile.cs" />
     <Compile Include="Model\KeyEnums\TextureFilter.cs" />
     <Compile Include="Model\TextureInfo.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Model\TextureAtlas.cs" />
+    <Compile Include="MonoGame\GDXTextureRegion2D.cs" />
+    <Compile Include="MonoGame\LibGDXAtlasReader.cs" />
     <Compile Include="MonoGame\SpriteBatchExtensions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\LibGDXAtlasParser\LibGDXAtlasParser.csproj">
+      <Project>{fe1ee5ac-0c9d-4a0f-8f76-99b07b56340e}</Project>
+      <Name>LibGDXAtlasParser</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CppNet.dll" />
+    <Content Include="libmojoshader_64.dll" />
+    <Content Include="mgfxc.dll" />
+    <Content Include="mgfxc.exe" />
+    <Content Include="mgfxc.pdb" />
+    <Content Include="SharpDX.D3DCompiler.dll" />
+    <Content Include="SharpDX.D3DCompiler.xml" />
+    <Content Include="SharpDX.dll" />
+    <Content Include="SharpDX.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mgfxc.deps.json" />
+    <None Include="mgfxc.runtimeconfig.dev.json" />
+    <None Include="mgfxc.runtimeconfig.json" />
+    <None Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

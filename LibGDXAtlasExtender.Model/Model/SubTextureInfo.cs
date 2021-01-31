@@ -172,6 +172,21 @@ namespace LibGDXAtlasExtender.Model
             </summary>
         */
         public int Index { get; set; }
+
+        /*
+            <summary>
+                FPS <see cref="Nullable<float>"/> Frames per second for an animation on the first index
+            </summary>
+        */
+        public Nullable<float> FPS { get; set; }
+
+        /*
+            <summary>
+                Duration <see cref="Nullable<int>"/> The duration of the frame for ananimation if the duration is provided.
+                If it is not provided than the subtexture frame lasts a single frame for the FPS.
+            </summary>
+        */
+        public Nullable<int> Duration { get; set; }
         #endregion
     }
 }

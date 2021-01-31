@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LibGDXAtlasParser.Utility;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +12,7 @@ namespace LibGDXAtlasParser.Model
     */
     public class SectionTreeCollection : ICloneable
     {
-        private readonly Dictionary<string, SectionTreeCollection> _nodes;
+        private readonly Dictionary<string, List<SectionTreeCollection>> _nodes;
         private SectionData _data;
         private SectionTreeCollection _parent;
 
@@ -30,7 +31,7 @@ namespace LibGDXAtlasParser.Model
         public SectionTreeCollection(SectionData data)
         {
             _data = data;
-            _nodes = new Dictionary<string, SectionTreeCollection>();
+            _nodes = new Dictionary<string, List<SectionTreeCollection>>();
             _parent = _root;
         }
 
@@ -45,14 +46,14 @@ namespace LibGDXAtlasParser.Model
         */
         public SectionTreeCollection(SectionTreeCollection orig, SectionData data)
         {
-            _nodes = new Dictionary<string, SectionTreeCollection>();
+            _nodes = new Dictionary<string, List<SectionTreeCollection>>();
             _parent = _root;
 
             _data = orig._data;
 
             foreach (string sectName in orig._nodes.Keys)
             {
-                _nodes.Add(sectName, (SectionTreeCollection)orig._nodes[sectName].Clone());
+                _nodes.Add(sectName, orig._nodes[sectName].Clone());
             }
         }
         /*
@@ -61,7 +62,7 @@ namespace LibGDXAtlasParser.Model
                 containing the section name of the subsection you want access.
             </summary>
         */
-        public SectionTreeCollection this[string sectionName]
+        public List<SectionTreeCollection> this[string sectionName]
         {
             get
             {
@@ -175,7 +176,14 @@ namespace LibGDXAtlasParser.Model
         public void Add(SectionTreeCollection child)
         {
             child.Data.Level = this.Level+1;
-            _nodes.Add(child._data.SectionName, child);
+            if (_nodes.ContainsKey(child._data.SectionName))
+            {
+                _nodes[child._data.SectionName].Add(child);
+            }
+            else
+            {
+                _nodes.Add(child._data.SectionName, new List<SectionTreeCollection>() { child });
+            }
             child._parent = this;
         }
 
@@ -189,7 +197,7 @@ namespace LibGDXAtlasParser.Model
             List<SectionTreeCollection> result = new List<SectionTreeCollection>();
             foreach(string key in _nodes.Keys)
             {
-                result.Add(_nodes[key]);
+                result.AddRange(_nodes[key]);
             }
             return result;
         }
@@ -214,7 +222,7 @@ namespace LibGDXAtlasParser.Model
             int result = 0;
             foreach (string key in _nodes.Keys)
             {
-                result += _nodes[key].GetNodeCount();
+                result += _nodes[key].Count;
             }
             result++;
             return result;
@@ -246,10 +254,15 @@ namespace LibGDXAtlasParser.Model
 
             foreach (string key in _nodes.Keys)
             {
-                result.Union(_nodes[key].GetSections());
+                foreach(SectionTreeCollection trees in _nodes[key])
+                {
+                    result.AddRange(trees.GetSections());
+                }
+                //result.Union(_nodes[key].GetSections());
             }
 
-            result.Add(this.SectionName);
+            if(!result.Contains(this.SectionName))
+                result.Add(this.SectionName);
             return result;
         }
 
@@ -279,13 +292,21 @@ namespace LibGDXAtlasParser.Model
                 passed as sectionName.
             </summary>
         */
-        public SectionTreeCollection Remove(string sectionName)
+        public bool Remove(string sectionName, SectionTreeCollection child)
         {
             if (_nodes.ContainsKey(sectionName))
             {
-                return _nodes[sectionName];
+                if(_nodes[sectionName].Contains(child))
+                {
+                    _nodes[sectionName].Remove(child);
+                    if(_nodes[sectionName].Count == 0)
+                    {
+                        _nodes.Remove(sectionName);
+                    }
+                    return true;
+                }
             }
-            return null;
+            return false;
         }
 
         /*
@@ -325,6 +346,7 @@ namespace LibGDXAtlasParser.Model
                 Copy the current instance and return it.
             </summary>
         */
+
         public object Clone()
         {
             return new SectionTreeCollection(this, (SectionData)this.Data.Clone());

@@ -27,6 +27,7 @@ namespace LibGDXAtlasExtender.Model.KeyEnums
         MipMapLinearLinear = 9987
     }
 
+#if MONOGAME_LIBS
     public static class TextureFilterExtensions
     {
         public static Microsoft.Xna.Framework.Graphics.TextureFilter ToXnaFilter(this TextureFilter lgdxFilter)
@@ -59,4 +60,5 @@ namespace LibGDXAtlasExtender.Model.KeyEnums
             return xnaFilter;
         }
     }
+#endif
 }

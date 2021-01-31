@@ -32,3 +32,13 @@ C:\Users\Brian\Source\Repos\LibGDX-Atlas-Parser\LibGDXAtlasParser\bin\Debug\Shar
 C:\Users\Brian\Source\Repos\LibGDX-Atlas-Parser\LibGDXAtlasParser\bin\Debug\SharpDX.XInput.xml
 C:\Users\Brian\Source\Repos\LibGDX-Atlas-Parser\LibGDXAtlasParser\bin\Debug\SharpDX.MediaFoundation.xml
 C:\Users\Brian\Source\Repos\LibGDX-Atlas-Parser\LibGDXAtlasParser\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Brian\Documents\MyPjs\Unity2019.12\TextureAtlasTest\Assets\Plugin\TextureAtlasUnity\LibGDXAtlasParser\bin\Debug\LibGDXAtlasParser.dll.config
+C:\Users\Brian\Documents\MyPjs\Unity2019.12\TextureAtlasTest\Assets\Plugin\TextureAtlasUnity\LibGDXAtlasParser\bin\Debug\LibGDXAtlasParser.dll
+C:\Users\Brian\Documents\MyPjs\Unity2019.12\TextureAtlasTest\Assets\Plugin\TextureAtlasUnity\LibGDXAtlasParser\bin\Debug\LibGDXAtlasParser.pdb
+C:\Users\Brian\Documents\MyPjs\Unity2019.12\TextureAtlasTest\Assets\Plugin\TextureAtlasUnity\LibGDXAtlasParser\obj\Debug\LibGDXAtlasParser.dll
+C:\Users\Brian\Documents\MyPjs\Unity2019.12\TextureAtlasTest\Assets\Plugin\TextureAtlasUnity\LibGDXAtlasParser\obj\Debug\LibGDXAtlasParser.pdb
+C:\Users\Brian\Documents\MyPjs\LibGDXAtlasForUnity\Plugin\TextureAtlasUnity\LibGDXAtlasParser\obj\Debug\LibGDXAtlasParser.dll
+C:\Users\Brian\Documents\MyPjs\LibGDXAtlasForUnity\Plugin\TextureAtlasUnity\LibGDXAtlasParser\obj\Debug\LibGDXAtlasParser.pdb
+C:\Users\Brian\Documents\MyPjs\LibGDXAtlasForUnity\Plugin\TextureAtlasUnity\LibGDXAtlasParser\bin\Debug\LibGDXAtlasParser.dll.config
+C:\Users\Brian\Documents\MyPjs\LibGDXAtlasForUnity\Plugin\TextureAtlasUnity\LibGDXAtlasParser\bin\Debug\LibGDXAtlasParser.dll
+C:\Users\Brian\Documents\MyPjs\LibGDXAtlasForUnity\Plugin\TextureAtlasUnity\LibGDXAtlasParser\bin\Debug\LibGDXAtlasParser.pdb

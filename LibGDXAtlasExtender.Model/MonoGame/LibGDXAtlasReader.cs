@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using LibGDXAtlasExtender.Model;
+#if MONOGAME_LIBS
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
-using LibGDXAtlasExtender.Model;
 using MonoGame.Extended.Content;
 
 namespace LibGDXAtlasExtender.Model
@@ -30,9 +31,9 @@ namespace LibGDXAtlasExtender.Model
 
             textureCount = reader.ReadInt32();
 
-            for(var i=0; i < textureCount; i++)
+            for (var i = 0; i < textureCount; i++)
             {
-                assetName = reader.GetRelativeAssetPath(reader.ReadString());
+                assetName = reader.GetRelativeAssetName(reader.ReadString());
                 textWidth = reader.ReadInt32();
                 textHeight = reader.ReadInt32();
                 buffStr = reader.ReadString();
@@ -44,7 +45,7 @@ namespace LibGDXAtlasExtender.Model
                 buffStr = reader.ReadString();
                 KeyTypeUtilities.Parse<LibGDXAtlasExtender.Model.KeyEnums.Repeat>(buffStr, ref repeat);
 
-                Console.WriteLine("Assset Name: "+assetName);
+                Console.WriteLine("Assset Name: " + assetName);
                 texture = reader.ContentManager.Load<Texture2D>(assetName);
                 curAtlas = new TextureAtlas(texture, textWidth, textHeight, format, minFilter, maxFilter, repeat);
 
@@ -64,3 +65,4 @@ namespace LibGDXAtlasExtender.Model
         }
     }
 }
+#endif

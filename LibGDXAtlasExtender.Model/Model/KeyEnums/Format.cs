@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.Xna.Framework.Graphics;
+#if MONOGAME_LIBS
+    using Microsoft.Xna.Framework.Graphics;
+#endif
 
 namespace LibGDXAtlasExtender.Model.KeyEnums
 {
@@ -17,6 +19,7 @@ namespace LibGDXAtlasExtender.Model.KeyEnums
         Alpha, Intensity, LuminanceAlpha, RGB565, RGBA4444, RGB888, RGBA8888
     }
 
+#if MONOGAME_LIBS
     public static class FormatExtensions
     {
         public static SurfaceFormat ToXnaFormat(this Format lgdxFormat)
@@ -51,4 +54,5 @@ namespace LibGDXAtlasExtender.Model.KeyEnums
             return xnaFormat;
         }
     }
+#endif
 }
